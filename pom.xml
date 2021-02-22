@@ -38,7 +38,7 @@
 		<spring-boot.version>2.1.15.RELEASE</spring-boot.version>
 		<spring-boot-bom.version>2.1.15.Final</spring-boot-bom.version>
 		<maven-surefire-plugin.version>2.20</maven-surefire-plugin.version>
-		<fabric8-maven-plugin.version>3.5.40</fabric8-maven-plugin.version>
+
 		<fabric8.openshift.trimImageInContainerSpec>true</fabric8.openshift.trimImageInContainerSpec>
 		<fabric8.skip.build.pom>true</fabric8.skip.build.pom>
 		<fabric8.generator.from>
@@ -139,7 +139,7 @@
 					<plugin>
 						<groupId>io.fabric8</groupId>
 						<artifactId>fabric8-maven-plugin</artifactId>
-						<version>${fabric8-maven-plugin.version}</version>
+						<version>4.4.1</version>
 						<executions>
 							<execution>
 								<id>fmp</id>
